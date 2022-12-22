@@ -1735,6 +1735,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-accordion-block@npm:^3.0.0":
+  version: 3.5.0
+  resolution: "@eeacms/volto-accordion-block@npm:3.5.0"
+  checksum: cfca8502fdf62e8ad9cdee7940116cd7993fb6035763559d459287e5dc99a17c7a1e01a7a14323c90a0d12b795b9a9c9237f6a78fc6f4ad85e6fdaee686e822d
+  languageName: node
+  linkType: hard
+
 "@emotion/babel-plugin@npm:^11.10.0":
   version: 11.10.2
   resolution: "@emotion/babel-plugin@npm:11.10.2"
@@ -16259,6 +16266,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-volto-app@workspace:."
   dependencies:
+    "@eeacms/volto-accordion-block": ^3.0.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.5.0
     "@storybook/addon-actions": ^6.3.0

@@ -24,7 +24,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "addons": [],
+  "addons": [
+    "@eeacms/volto-accordion-block"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -126,6 +128,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
+    "@eeacms/volto-accordion-block": "^3.0.0",
     "@plone/volto": "16.5.0"
   },
   "devDependencies": {
