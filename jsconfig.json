@@ -1,7 +1,8 @@
 {
-    "compilerOptions": {
-        "paths": {
-        },
-        "baseUrl": "src"
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@plone-collective/voltodemo": ["addons/voltodemo/src"]
     }
+  }
 }

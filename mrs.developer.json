@@ -1,1 +1,5 @@
-{}
+{
+  "voltodemo": {
+    "local": "addons/voltodemo/src"
+  }
+}
