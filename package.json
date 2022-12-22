@@ -25,6 +25,8 @@
     "build-storybook": "build-storybook"
   },
   "addons": [
+    "@eeacms/volto-datablocks",
+    "@eeacms/volto-plotlycharts",
     "@eeacms/volto-accordion-block",
     "@plone-collective/voltodemo"
   ],
@@ -130,6 +132,8 @@
   },
   "dependencies": {
     "@eeacms/volto-accordion-block": "^3.0.0",
+    "@eeacms/volto-datablocks": "*",
+    "@eeacms/volto-plotlycharts": "*",
     "@plone/volto": "16.5.0"
   },
   "devDependencies": {
